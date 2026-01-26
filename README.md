@@ -17,5 +17,8 @@ This repository contains code and resources for projects using the Digispark ATT
 https://www.arduino.cc/en/software/
 ```
 2 Add Digispark boards via File → Preferences → Additional Boards Manager URLs
+```bash
+https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
+```
 
 
