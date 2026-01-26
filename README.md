@@ -16,4 +16,6 @@ This repository contains code and resources for projects using the Digispark ATT
 ```bash
 https://www.arduino.cc/en/software/
 ```
+2 Add Digispark boards via File → Preferences → Additional Boards Manager URLs
+
 
