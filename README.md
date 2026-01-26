@@ -22,3 +22,29 @@ https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_
 ```
 3 Open the project sketch and select Digispark (Default - 16.5 MHz) as the board.
 
+4 Copy this code for testing
+```bash
+#include <DigiKeyboard.h>
+
+void setup() {
+  // Give the PC a moment to recognize the Digispark
+  DigiKeyboard.delay(2000);
+
+  // Open Run dialog (Windows + R)
+  DigiKeyboard.sendKeyPress(KEY_R, MOD_GUI_LEFT); // MOD_GUI_LEFT is the Windows key
+  DigiKeyboard.delay(500);
+
+  // Type "notepad"
+  DigiKeyboard.print("notepad");
+  DigiKeyboard.delay(200);
+
+  // Press Enter to open Notepad
+  DigiKeyboard.sendKeyPress(KEY_ENTER);
+}
+
+void loop() {
+  // Nothing to do here
+}
+```
+5 Click Upload. The board will program after you plug it in.
+
