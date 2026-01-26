@@ -57,5 +57,9 @@ void loop() {
 }
 
 ```
-5 Click Upload. The board will program after you plug it in.
+5 Click Verify.
+
+6 Click Upload. The board will program after you plug it in.
+
+7 Unplug it and plug it back in.
 
