@@ -20,5 +20,5 @@ https://www.arduino.cc/en/software/
 ```bash
 https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
 ```
-
+3 Open the project sketch and select Digispark (Default - 16.5 MHz) as the board.
 
