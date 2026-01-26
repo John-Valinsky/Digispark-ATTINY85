@@ -9,3 +9,11 @@ This repository contains code and resources for projects using the Digispark ATT
 * USB interface for easy programming
 
 * Compact and low-cost for hobbyist projects
+
+# Getting Started
+
+1 Install the Arduino IDE
+```bash
+https://www.arduino.cc/en/software/
+```
+
