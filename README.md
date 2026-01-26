@@ -26,25 +26,36 @@ https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_
 ```bash
 #include <DigiKeyboard.h>
 
+void typeSlowly(const char* text, int delayMs) {
+  for (int i = 0; text[i] != '\0'; i++) {
+    DigiKeyboard.print(text[i]);
+    DigiKeyboard.delay(delayMs); // Delay between each character
+  }
+}
+
 void setup() {
-  // Give the PC a moment to recognize the Digispark
+  // Wait for PC to recognize Digispark
   DigiKeyboard.delay(2000);
 
   // Open Run dialog (Windows + R)
-  DigiKeyboard.sendKeyPress(KEY_R, MOD_GUI_LEFT); // MOD_GUI_LEFT is the Windows key
+  DigiKeyboard.sendKeyPress(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(500);
 
-  // Type a message
-  DigiKeyboard.print("Congrats! You did it!");
-  DigiKeyboard.delay(200);
-
-  // Press Enter to open Notepad
+  // Type "notepad" and press Enter
+  DigiKeyboard.print("notepad");
   DigiKeyboard.sendKeyPress(KEY_ENTER);
+
+  // Wait for Notepad to open
+  DigiKeyboard.delay(500);
+
+  // Type message slowly
+  typeSlowly("Congrats! Your Digispark is working!", 150); // 150ms per character
 }
 
 void loop() {
   // Nothing to do here
 }
+
 ```
 5 Click Upload. The board will program after you plug it in.
 
