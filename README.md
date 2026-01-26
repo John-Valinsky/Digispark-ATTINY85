@@ -34,8 +34,8 @@ void setup() {
   DigiKeyboard.sendKeyPress(KEY_R, MOD_GUI_LEFT); // MOD_GUI_LEFT is the Windows key
   DigiKeyboard.delay(500);
 
-  // Type "notepad"
-  DigiKeyboard.print("notepad");
+  // Type a message
+  DigiKeyboard.print("Congrats! You did it!");
   DigiKeyboard.delay(200);
 
   // Press Enter to open Notepad
