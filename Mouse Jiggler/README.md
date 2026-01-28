@@ -72,6 +72,111 @@ unsigned int UpperCycleTime = 1000;  // Maximum delay (ms)
   The randomized timing helps avoid detection by simple activity monitors.
 
 
+# Codes
+```bash
+// Digispark Mouse Jiggler
+// Original version is Written by James Franklin for Air-Gap in 2019
+// www.air-gap.com.au
+
+#include <DigiMouse.h>
+unsigned int LowerCycleTime = 500; //Minimum Time in milli-seconds between each mouse action  Default: 10000 (10 Seconds), Max 65535ms
+unsigned int UpperCycleTime = 1000; //Maximum Time in milli-seconds between each mouse action  Default: 30000 (30 Seconds), Max 65535ms
+//Random Function will randomly execute a mouse move between these two values
+void setup() {
+  randomSeed(analogRead(0));  //Random Seed off background noise on analog pin
+  pinMode(1, OUTPUT);
+  DigiMouse.begin(); //start
+
+}
+ void loop() {
+  // Moves mouse 1 pixel in the X and Y directions (up, down, left, or right) in a loop
+
+  // Move up
+  digitalWrite(1, HIGH);
+  DigiMouse.moveY(-1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move down
+  digitalWrite(1, HIGH);
+  DigiMouse.moveY(1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move left
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(-1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move right
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move right
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+  
+// Move left
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(-1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+   // Move down
+  digitalWrite(1, HIGH);
+  DigiMouse.moveY(1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move up
+  digitalWrite(1, HIGH);
+  DigiMouse.moveY(-1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move left
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(-1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move right
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+
+  // Move right
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+  
+// Move left
+  digitalWrite(1, HIGH);
+  DigiMouse.moveX(-1000000);
+  DigiMouse.delay(50);
+  digitalWrite(1, LOW);
+  DigiMouse.delay(random(LowerCycleTime, UpperCycleTime));
+}
+```
+
 # Usage
 
 * Flash the sketch to your Digispark.
