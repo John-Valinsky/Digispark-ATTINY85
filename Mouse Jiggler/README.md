@@ -90,3 +90,5 @@ unsigned int UpperCycleTime = 1000;  // Maximum delay (ms)
 * This device actively moves your mouse — do not use during precise tasks.
 
 * Intended for educational and personal use.
+
+* Use responsibly and in accordance with workplace policies.
