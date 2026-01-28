@@ -69,11 +69,22 @@ unsigned int UpperCycleTime = 1000;  // Maximum delay (ms)
 
 * Loop repeats indefinitely.
 
-The randomized timing helps avoid detection by simple activity monitors.
+  The randomized timing helps avoid detection by simple activity monitors.
 
 
 # Usage
 
 * Flash the sketch to your Digispark.
+
+* Plug it into a USB port.
+
+* The system will detect it as a standard mouse.
+
+* Mouse movement begins automatically.
+
+  No user interaction required.
+
+
+# Notes & Warnings
 
 * 
