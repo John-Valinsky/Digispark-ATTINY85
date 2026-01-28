@@ -68,3 +68,9 @@ unsigned int UpperCycleTime = 1000;  // Maximum delay (ms)
   3 Waits a random delay before the next action.
 
 * Loop repeats indefinitely.
+
+The randomized timing helps avoid detection by simple activity monitors.
+
+
+# Usage
+
