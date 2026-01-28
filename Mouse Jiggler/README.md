@@ -96,3 +96,5 @@ unsigned int UpperCycleTime = 1000;  // Maximum delay (ms)
 
 # License
 
+Free for personal and educational use.
+Original credit must be retained.
