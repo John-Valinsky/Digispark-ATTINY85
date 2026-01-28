@@ -56,3 +56,15 @@ unsigned int UpperCycleTime = 1000;  // Maximum delay (ms)
 # How it works
 
 * On startup, the device seeds randomness using analog noise.
+
+* The mouse is moved in X and Y directions repeatedly.
+
+* Each movement:
+
+  1 Toggles GPIO pin 1 (LED indicator).
+
+  2 Sends large relative mouse movements.
+
+  3 Waits a random delay before the next action.
+
+* Loop repeats indefinitely.
