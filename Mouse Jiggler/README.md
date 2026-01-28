@@ -74,3 +74,6 @@ The randomized timing helps avoid detection by simple activity monitors.
 
 # Usage
 
+* Flash the sketch to your Digispark.
+
+* 
