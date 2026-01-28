@@ -33,3 +33,26 @@ Originally written by James Franklin for Air-Gap in 2019.
 * Digispark board support installed.
 
 * DigiMouse library.
+
+
+# Required Library
+
+* DigiMouse
+
+
+# Configuration
+
+You can adjust the random delay between mouse movements using these variables:
+
+```bash
+unsigned int LowerCycleTime = 500;   // Minimum delay (ms)
+unsigned int UpperCycleTime = 1000;  // Maximum delay (ms)
+```
+* Default range: 0.5 - 1 second
+
+* Max supported value: 65535 ms
+
+
+# How it works
+
+* On startup, the device seeds randomness using analog noise.
