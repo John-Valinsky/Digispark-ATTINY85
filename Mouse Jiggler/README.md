@@ -17,3 +17,11 @@ Originally written by James Franklin for Air-Gap in 2019.
 * No drives required.
 
 * LED activity indicator via GPIO pin.
+
+
+# Hardware Required
+
+* Digispark ATtiny85 
+
+* USB port 
+
