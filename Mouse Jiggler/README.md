@@ -21,7 +21,15 @@ Originally written by James Franklin for Air-Gap in 2019.
 
 # Hardware Required
 
-* Digispark ATtiny85 
+* Digispark ATtiny85.
 
-* USB port 
+* USB port.
 
+
+# Software Requirements
+
+* Arduino IDE.
+
+* Digispark board support installed.
+
+* DigiMouse library.
