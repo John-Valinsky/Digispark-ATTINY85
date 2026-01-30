@@ -67,3 +67,15 @@ void setup()
 
 void loop() { }
 ```
+
+# Requirements
+
+* Digispark ATTiny85.
+
+* Arduino IDE.
+
+* Digispark board support.
+
+* DigiKeyboard library.
+
+* Windows OS (tested).
