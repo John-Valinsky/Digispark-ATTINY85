@@ -1,3 +1,9 @@
+<!-- PROJECT SHIELDS -->
+![Repo Size](https://img.shields.io/github/repo-size/John-Valinsky/Windows)
+![Last Commit](https://img.shields.io/github/last-commit/John-Valinsky/Windows)
+![Open Issues](https://img.shields.io/github/issues/John-Valinsky/Windows)
+![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
+
 # Digispark-ATTINY85
 
 This repository contains code and resources for projects using the Digispark ATTINY85 microcontroller. The Digispark is a compact, Arduino-compatible board ideal for small, low-power applications.
