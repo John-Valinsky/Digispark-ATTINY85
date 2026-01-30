@@ -73,3 +73,16 @@ void loop() {
 * Unsaved work will be lost.
 
 * Do NOT use on systems without permission.
+
+
+# Use Cases
+
+* Learning HID attacks.
+
+* USB automation experiments.
+
+* Red team / blue team lab testing.
+
+* Demonstrating physical security risks.
+
+* Educational cybersecurity demos.
