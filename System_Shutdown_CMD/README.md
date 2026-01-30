@@ -24,3 +24,6 @@ shutdown -s -t 0
 # Exits Command Prompt
 
 All actions are automated and executed very quickly.
+
+
+# How It Works
