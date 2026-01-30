@@ -16,3 +16,5 @@ This Digispark (ATTiny85) script emulates a USB keyboard to instantly shut down 
 * Presses Enter.
 
 * The system shuts down immediately.
+
+After execution, the device enters an infinite loop and does nothing further.
