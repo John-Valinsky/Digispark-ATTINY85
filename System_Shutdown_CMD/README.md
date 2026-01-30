@@ -103,3 +103,16 @@ Red team / blue team lab exercises.
 USB attack awareness training.
 
 Digispark automation learning.
+
+
+# Defensive Notes (Blue Team)
+
+This attack can be mitigated by:
+
+Disabling unused USB ports.
+
+Using USB device control / HID whitelisting.
+
+Enforcing endpoint protection with behavior blocking.
+
+Locking the workstation when unattended.
