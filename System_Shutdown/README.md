@@ -51,3 +51,16 @@ void loop() {
   for(;;) { /* stop execution */ }
 }
 ```
+
+
+# Requirements
+
+* Digispark ATTiny85.
+
+* Arduino IDE.
+
+* Digispark board support installed.
+
+* DigiKeyboard library.
+
+* Windows OS (tested).
