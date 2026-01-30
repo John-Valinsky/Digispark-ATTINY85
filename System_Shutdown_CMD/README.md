@@ -116,3 +116,7 @@ Using USB device control / HID whitelisting.
 Enforcing endpoint protection with behavior blocking.
 
 Locking the workstation when unattended.
+
+
+# License
+
