@@ -79,3 +79,14 @@ void loop() { }
 * DigiKeyboard library.
 
 * Windows OS (tested).
+
+
+# Warning
+
+Causes immediate system shutdown.
+
+Any unsaved data will be lost.
+
+May stress storage devices due to dir /s.
+
+Never run on systems you do not own or have permission to test.
