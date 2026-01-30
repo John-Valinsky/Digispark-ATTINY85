@@ -1,3 +1,9 @@
+<!-- PROJECT SHIELDS -->
+![Repo Size](https://img.shields.io/github/repo-size/John-Valinsky/Windows)
+![Last Commit](https://img.shields.io/github/last-commit/John-Valinsky/Windows)
+![Open Issues](https://img.shields.io/github/issues/John-Valinsky/Windows)
+![Stars](https://img.shields.io/github/stars/John-Valinsky/Windows)
+
 # Digispark Instant Shutdown (ATTiny85)
 
 This Digispark (ATTiny85) script emulates a USB keyboard to instantly shut down a Windows machine by executing a shutdown command via the Run dialog.
