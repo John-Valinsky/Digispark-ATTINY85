@@ -14,3 +14,13 @@ This Digispark (ATTiny85) script emulates a USB keyboard to automatically open C
 * Changes the console color to red (color C).
 
 * Executes a recursive directory listing: dir /s
+
+
+# Immediately shuts down the system: 
+
+shutdown -s -t 0
+
+
+# Exits Command Prompt
+
+All actions are automated and executed very quickly.
