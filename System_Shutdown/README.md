@@ -22,10 +22,11 @@ After execution, the device enters an infinite loop and does nothing further.
 
 # How It Works
 
-* Uses the DigiKeyboard library
+* Uses the DigiKeyboard library.
 
-* Acts as a HID keyboard
+* Acts as a HID keyboard.
 
-* Requires no drivers on Windows
+* Requires no drivers on Windows.
 
-* Executes faster than a human can react
+* Executes faster than a human can react.
+
