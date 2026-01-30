@@ -64,3 +64,12 @@ void loop() {
 * DigiKeyboard library.
 
 * Windows OS (tested).
+
+
+# Warning
+
+* This script will immediately shut down the target system.
+
+* Unsaved work will be lost.
+
+* Do NOT use on systems without permission.
