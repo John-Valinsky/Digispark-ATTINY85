@@ -27,3 +27,13 @@ All actions are automated and executed very quickly.
 
 
 # How It Works
+
+* Uses the DigiKeyboard library.
+
+* Emulates a USB HID keyboard.
+
+* Requires no drivers.
+
+* Relies on keystroke injection rather than exploits.
+
+* Executes before most users can react.
