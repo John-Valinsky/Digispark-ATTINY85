@@ -18,3 +18,14 @@ This Digispark (ATTiny85) script emulates a USB keyboard to instantly shut down 
 * The system shuts down immediately.
 
 After execution, the device enters an infinite loop and does nothing further.
+
+
+# How It Works
+
+* Uses the DigiKeyboard library
+
+* Acts as a HID keyboard
+
+* Requires no drivers on Windows
+
+* Executes faster than a human can react
