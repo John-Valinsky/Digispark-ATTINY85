@@ -90,3 +90,16 @@ Any unsaved data will be lost.
 May stress storage devices due to dir /s.
 
 Never run on systems you do not own or have permission to test.
+
+
+# Educational Use Cases
+
+HID attack demonstrations.
+
+Physical access security testing.
+
+Red team / blue team lab exercises.
+
+USB attack awareness training.
+
+Digispark automation learning.
