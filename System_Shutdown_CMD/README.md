@@ -5,3 +5,12 @@ This Digispark (ATTiny85) script emulates a USB keyboard to automatically open C
 
 # What This Script Does
 
+## When plugged into a Windows machine, the Digispark performs the following actions:
+
+* Opens the Run dialog (Win + R).
+
+* Launches Command Prompt.
+
+* Changes the console color to red (color C).
+
+* Executes a recursive directory listing: dir /s
