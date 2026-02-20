@@ -26,3 +26,4 @@ There is no malware, payload execution, persistence, or network activity involve
 
 * Understanding why physical access = full access.
 
+* Red-team / blue-team demonstrations.
