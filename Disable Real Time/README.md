@@ -78,3 +78,12 @@ Do NOT use on machines you don’t own or have explicit permission to test.
 * Monitor Defender tampering events.
 
 * Require admin approval for security changes.
+
+
+# Tested Environment
+
+* Windows 10 / 11 (English UI).
+
+* Default Windows Security layout.
+
+* Digispark ATtiny85 @ 16.5 MHz.
