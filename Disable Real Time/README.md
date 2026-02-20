@@ -50,3 +50,31 @@ Software
 * DigiKeyboard library.
 
 * Windows (tested on Windows 10 / 11).
+
+
+# Warnings
+
+* Physical access required — this does NOT work remotely.
+
+* Fragile by design — small UI changes can break it.
+
+* May fail silently if timing or focus changes.
+
+* Requires admin privileges on the target system.
+
+* Disabling Real-Time Protection reduces system security.
+
+Do NOT use on machines you don’t own or have explicit permission to test.
+
+
+# Defensive Takeaways
+
+* Lock your screen when away.
+
+* Disable unknown USB devices.
+
+* Use device control / USB whitelisting.
+
+* Monitor Defender tampering events.
+
+* Require admin approval for security changes.
