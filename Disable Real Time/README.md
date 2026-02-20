@@ -14,3 +14,5 @@ It’s essentially a proof-of-concept showing how HID devices can interact with 
 * Launches Windows Security.
 
 * Navigates through the UI using keystrokes.
+
+* Toggles Real-Time Protection ON or OFF (depending on current state).
