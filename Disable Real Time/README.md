@@ -12,3 +12,5 @@ It’s essentially a proof-of-concept showing how HID devices can interact with 
 * Opens the Start Menu.
 
 * Launches Windows Security.
+
+* Navigates through the UI using keystrokes.
