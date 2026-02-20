@@ -29,3 +29,5 @@ There is no malware, payload execution, persistence, or network activity involve
 * Red-team / blue-team demonstrations.
 
 * Security awareness training.
+
+* Digispark / DigiKeyboard experimentation.
