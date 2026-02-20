@@ -31,3 +31,22 @@ There is no malware, payload execution, persistence, or network activity involve
 * Security awareness training.
 
 * Digispark / DigiKeyboard experimentation.
+
+
+# Requirements
+
+Hardware
+
+* Digispark ATtiny85 (or compatible).
+
+* USB port on a Windows machine.
+
+Software
+
+* Arduino IDE.
+
+* Digispark board definitions.
+
+* DigiKeyboard library.
+
+* Windows (tested on Windows 10 / 11).
