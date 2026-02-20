@@ -16,3 +16,5 @@ It’s essentially a proof-of-concept showing how HID devices can interact with 
 * Navigates through the UI using keystrokes.
 
 * Toggles Real-Time Protection ON or OFF (depending on current state).
+
+There is no malware, payload execution, persistence, or network activity involved — just keystroke automation.
