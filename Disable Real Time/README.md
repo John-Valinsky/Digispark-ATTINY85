@@ -8,3 +8,5 @@ It’s essentially a proof-of-concept showing how HID devices can interact with 
 # What This Does
 
 * Registers as a USB keyboard (HID).
+
+* Opens the Start Menu.
