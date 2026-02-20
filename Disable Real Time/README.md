@@ -23,3 +23,6 @@ There is no malware, payload execution, persistence, or network activity involve
 # Why This Exists
 
 * Learning how USB HID attacks work at a conceptual level.
+
+* Understanding why physical access = full access.
+
